@@ -122,6 +122,7 @@ X = int(input())
 print("Enter Second Number: ",end="")
 Y = int(input())
 if (Y==0):
+	print()
 	print("Divsior Can't Be Zero")
 else:
 	P,Pb = Multiply(X,Y)
