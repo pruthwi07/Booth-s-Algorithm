@@ -124,6 +124,7 @@ Y = int(input())
 if (Y==0):
 	print()
 	print("Divsior Can't Be Zero")
+	print()
 else:
 	P,Pb = Multiply(X,Y)
 	Q,R,Qb,Rb = Divide(X,Y)
